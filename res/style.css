@@ -5,6 +5,23 @@ body {
   margin: 0;
   font-size: 18px;
 }
+.body-fa {
+  font-family: 'Vazir', sans-serif;
+  font-weight: 300;
+  line-height: 24px;
+}
+.rtl-dir {
+    direction: rtl;
+}
+#header {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+#header > div > a {
+  border: 1px solid #428bca;
+  text-decoration: none;
+  border: none;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
