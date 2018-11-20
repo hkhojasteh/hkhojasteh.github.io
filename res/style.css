@@ -50,6 +50,33 @@ body {
   float: left;
   width: 250px;
 }
+#header-text {
+  margin-top: 30px;
+  margin-left: 280px;
+}
+#header-text-name {
+  font-weight: 400;
+  font-size: 40px;
+}
+#header-text-email {
+  line-height: 1.0;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 300;
+}
+#header-text-title {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: -6px;
+}
+#header-inner {
+  padding-top: 120px;
+  padding-left: 50px;
+}
+#header-icon-container {
+  margin-top: 10px;
+  position: absolute;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
