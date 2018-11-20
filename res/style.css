@@ -37,6 +37,19 @@ body {
   margin: 0 auto;
   margin-bottom: 70px;
 }
+.header-bg {
+  background-image: url(./imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+  border-radius: 0 0 6px 6px;
+}
+.header-img {
+  border-radius: 50%;
+  border: 11px solid white;
+  float: left;
+  width: 250px;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
