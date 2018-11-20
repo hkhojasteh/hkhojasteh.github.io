@@ -77,6 +77,31 @@ body {
   margin-top: 10px;
   position: absolute;
 }
+#lang-button {
+  width: auto;
+  float: right;
+  padding: 5px 10px 5px 10px;
+  margin: 20px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+}
+#lang-button:hover {
+  border-color: #ffc000;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+#lang-button:hover a {
+  color: #ffc000;
+  text-decoration: none;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+#lang-button a {
+  color: #fff;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
