@@ -102,6 +102,35 @@ body {
 #lang-button a {
   color: #fff;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+#lang-button ul {
+  font-size: 20px;
+  font-weight: 400;
+}
+.lang {
+  border-radius: 4px;
+  position: absolute;
+  top: -15px;
+  padding: 6px;
+  background-color: #be242a;
+}
+.lang a {
+ color: #fff;
+ text-decoration: none;
+}
+#lang-fa {
+  right: 12px;
+}
+#lang-en {
+  left: 12px;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
