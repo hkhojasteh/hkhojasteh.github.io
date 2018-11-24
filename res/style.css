@@ -131,6 +131,25 @@ li {
 #lang-en {
   left: 12px;
 }
+.selectable:hover {
+  opacity: 0.80;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+#teaser {
+  height: 410px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #8C1515;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
