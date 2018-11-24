@@ -150,6 +150,41 @@ li {
   font-size: 16px;
   text-align: center;
 }
+tb {
+  font-weight: 600;
+}
+ts {
+  font-size: 16px;
+}
+ti {
+  font-style: italic
+}
+tis {
+  font-style: italic;
+  font-size: 16px;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #ffc000;
+  padding: 15px 0px 15px 15px;
+  margin: 10px 0 30px -15px;
+  width: 325px;
+  border-radius: 4px;
+}
+.lhead {
+  font-weight: normal;
+  margin-top: 5px;
+}
+.litem {
+  margin-top: 5px;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
