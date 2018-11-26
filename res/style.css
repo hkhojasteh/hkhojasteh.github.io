@@ -334,6 +334,69 @@ h2 {
 .rlink:focus {     
   color: black;
 }
+.egimg {
+  display: inline-block;
+  vertical-align: top;
+  margin: auto;
+}
+.hh {
+  color: #090;
+}
+.edu-title {
+  border-top: 1px solid #dfdfdf;
+  padding-top: 1.5em;
+}
+.edu-logo {
+  margin: 5px 15px 0 0;
+  float: right;
+  padding-left: 15px;
+}
+.edu-info {
+  margin-left: 15px;
+}
+.edu-logos {
+  margin-top: 30px;
+}
+.edu-date {
+  float: right;
+}
+.logo-image {
+  max-height: 70px;
+  max-width: 100%;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+.pub {
+  padding-bottom: 20px;
+}
+.pub-img {
+  margin: 5px 0 0 15px;
+  float: left;
+  padding-right: 15px;
+  max-width: 100%
+}
+.icon {
+  line-height: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  padding: 2px 0;
+  font-size: 13px;
+}
+.icon:hover{
+  color: #fff;
+  width: 28px;
+  height: 28px;
+  font-size: 15px;
+  line-height: 25px;
+  text-decoration: none;
+}
+.icon:focus {     
+  color: #fff;
+  text-decoration: none;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
