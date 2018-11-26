@@ -301,6 +301,39 @@ h2 {
   padding: 5px;
   border-radius: 4px;
 }
+.instructorphoto img {
+  width: 110px;
+  border-radius: 110px;
+  margin-bottom: 10px;
+}
+.instructor {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+.instructoraffiliations {
+  padding-top: 40px;
+}
+.thumbnailpaper{
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #ededed;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
+.thumbnailpaper:hover{
+  border: 1px solid #428bca;
+}
+.rlink{
+  color: black;
+}
+.rlink:hover{
+  color: #4b4b4b;
+}
+.rlink:focus {     
+  color: black;
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
