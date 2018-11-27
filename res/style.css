@@ -419,6 +419,50 @@ h2 {
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
 }
+.icon-big:focus {     
+  color: #fff;
+  text-decoration: none;
+}
+.icon-linkedin {
+  background-color: #0077b5;
+}
+.icon-linkedin:hover {
+  color: #0077b5;
+}
+.icon-linkedin:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f0e1";
+}
+.icon-github {
+  background-color: #24292e;
+}
+.icon-github:hover {
+  color: #24292e;
+}
+.icon-github:before {
+  font-family: "Font Awesome 5 Brands";
+  content: "\f09b";
+}
+.icon-twitter {
+  background-color: #4fb8ef;
+}
+.icon-twitter:hover {
+  color: #4fb8ef;
+}
+.icon-twitter:before{
+  font-family: "Font Awesome 5 Brands";
+  content:"\f099"
+}
+.icon-rg {
+  background-color: #07af3a;
+}
+.icon-rg:hover {
+    color: #07af3a;
+}
+.icon-rg:before {
+  font-family: "Font Awesome 5 Brands";
+  content:"\f4f8"
+}
 @font-face {
     font-family: Vazir;
     src: url('./fonts/Vazir.eot');
