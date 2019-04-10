@@ -426,7 +426,7 @@ h2 {
   margin: 5px 0 0 15px;
   float: left;
   padding-right: 15px;
-  max-width: 100%
+  max-width: 100%;
 }
 .gallery-img-row {
     width: 100%; margin: auto;
@@ -435,7 +435,24 @@ h2 {
     padding: 0;
 }
 .gallery-img {
-    width: 100%
+    width: 100%;
+}
+.gallery-img-title {
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  background-color: #00ccff;
+  position: absolute;
+  padding: 5px;
+  margin: -37px 0 0 4px;
+  border-radius: 4px;
+  opacity: 0.9;
+}
+@media only screen and (max-width: 825px) {
+  .gallery-img-title {
+    font-size: 12px;
+    border-radius: 2px;
+  }
 }
 .icon {
   line-height: 20px;
