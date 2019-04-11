@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -453,6 +456,34 @@ h2 {
     font-size: 12px;
     border-radius: 2px;
   }
+}
+#scroll-top-con {
+  float: right;
+  padding-right: 5.5rem;
+}
+#scrollTop {
+  opacity: 0;
+  z-index: 10;
+  position: fixed;
+  bottom: 1.5rem;
+  width: 5.3rem;
+  height: 5.3rem;
+  padding: 0;
+  background: #00ccff;
+  color: #fff;
+  border: 0;
+  border-radius: 50%;
+  -webkit-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  outline: 0;
+}
+#scrollTop:hover {
+  background: #bab7b7;
+}
+#scrollTop:left {
+  background: #00ccff;
+border: 5px;
 }
 .icon {
   line-height: 20px;
