@@ -18,17 +18,17 @@ body {
 }
 .link:focus,
 .link {
-  color: #d4a000;
+  color: #428bca;
   font-weight: 300;
   border: 0;
   padding: 2px;
   text-decoration: none;
 }
 .link:hover {
-  color: #ffc000;
+  color: #00ccff;
   text-decoration: none;
   padding: 1px;
-  border: 1px solid #ffc000;
+  border: 1px solid #00ccff;
 }
 #header {
   margin-top: 25px;
