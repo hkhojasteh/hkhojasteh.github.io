@@ -485,6 +485,27 @@ h2 {
   background: #00ccff;
 border: 5px;
 }
+.prj-btn {
+  font-size: 20px;
+  font-weight: 300;
+  width: auto;
+  float: left;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  border: 2px solid #ffc000;
+  border-radius: 4px;
+  color: #ffc000;
+}
+.prj-btn:focus,
+.prj-btn:hover {
+  text-decoration: none;
+  border-color: #aaaaaa;
+  color: #aaaaaa;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+}
 .icon {
   line-height: 20px;
   width: 25px;
