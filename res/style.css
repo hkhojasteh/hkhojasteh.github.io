@@ -520,6 +520,14 @@ border: 5px;
   -webkit-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
 }
+.prj-btn-small {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px 10px 5px 10px;
+  margin-top: 5px;
+  margin-right: 10px;
+  border: 1px solid #ffc000;
+}
 .icon {
   line-height: 20px;
   width: 25px;
