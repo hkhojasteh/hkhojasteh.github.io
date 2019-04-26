@@ -447,6 +447,8 @@ h2 {
 }
 .gallery-img-row {
   width: 100%; margin: auto;
+  border-radius: 6px;
+  padding: 0;
 }
 .gallery-img-col {
   padding: 0;
@@ -527,6 +529,14 @@ border: 5px;
   margin-top: 5px;
   margin-right: 10px;
   border: 1px solid #ffc000;
+}
+.prj-img {
+  width: 100%;
+  vertical-align: middle;
+  margin-bottom: 1em;
+}
+.prj-col {
+  margin-bottom: 1.0em;
 }
 .icon {
   line-height: 20px;
