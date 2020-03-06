@@ -428,6 +428,15 @@ h2 {
   padding-right: 15px;
   max-width: 100%
 }
+.gallery-img-row {
+    width: 100%; margin: auto;
+}
+.gallery-img-col {
+    padding: 0;
+}
+.gallery-img {
+    width: 100%
+}
 .icon {
   line-height: 20px;
   width: 25px;
